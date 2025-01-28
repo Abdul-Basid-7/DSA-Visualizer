@@ -1,0 +1,36 @@
+/* BinaryTreeVisualizer.css */
+.binary-tree-visualizer {
+    text-align: center;
+    margin: 20px 0;
+    background-color: black;
+}
+.binary-tree-visualizer h3{
+    color: aliceblue;
+}
+
+.tree-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tree-node {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    background-color: #81c784;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.tree-node.visited {
+    background-color: #ffb74d;
+}
+
+.tree-children {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

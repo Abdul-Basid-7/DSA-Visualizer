@@ -1,0 +1,34 @@
+/* Home.css */
+.home {
+    padding: 40px;
+    max-width: 1500px;
+    
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.home h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.home p {
+    color: #555;
+}
+.home{
+    background-image: url(img.jpg);
+}
+#visualizations,#programming,#compiler{
+    background-color: aqua;
+}
+.no-underline{
+    text-decoration: none;
+}

@@ -1,0 +1,36 @@
+/* BinarySearchVisualizer.css */
+.binary-search-visualizer {
+    text-align: center;
+    margin: 20px 0;
+    background-color: black;
+}
+.binary-search-visualizer h3{
+    color: aliceblue;
+}
+.array-bar {
+    margin: 0 5px;
+    background-color: #90caf9;
+    width: 20px;
+    text-align: center;
+    color: #333;
+    font-size: 12px;
+    transition: background-color 0.3s;
+}
+
+/* Highlighting for current element */
+.current {
+    background-color: #ffd54f;
+}
+
+/* Highlighting for found element */
+.found {
+    background-color: #81c784;
+}
+
+/* Highlighting for in-range elements */
+.in-range {
+    background-color: #c5e1a5;
+}
+#element{
+    color: white;
+}

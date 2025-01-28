@@ -1,0 +1,47 @@
+/* InsertionSortVisualizer.css */
+.insertion-sort-visualizer {
+    text-align: center;
+    margin: 20px 0;
+    background-color: black;
+}
+.insertion-sort-visualizer h3{
+    color: aliceblue;
+}
+
+.insertion-sort-visualizer input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.insertion-sort-visualizer button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.array-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.array-bar {
+    margin: 0 5px;
+    background-color: #90caf9;
+    width: 20px;
+    text-align: center;
+    color: #333;
+    font-size: 12px;
+    transition: background-color 0.3s;
+}
+
+/* Current element being sorted */
+.current {
+    background-color: #f48fb1;
+}
+
+/* Elements that are sorted */
+.sorted {
+    background-color: #81c784;
+}

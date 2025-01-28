@@ -1,0 +1,55 @@
+/* ProgrammingTutorial.css */
+.programming-tutorial {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.programming-tutorial h2 {
+    color: #3f51b5;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.programming-tutorial p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.topics-list {
+    margin-top: 20px;
+}
+
+.topic {
+    background: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.topic h3 {
+    color: #3f51b5;
+    margin: 0 0 5px 0;
+}
+
+.topic p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.compiler-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #3f51b5;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.compiler-link:hover {
+    background-color: #303f9f;
+}

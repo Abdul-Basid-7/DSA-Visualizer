@@ -1,0 +1,41 @@
+/* GraphVisualizer.css */
+.graph-visualizer {
+    text-align: center;
+    margin: 20px 0;
+    background-color: black;
+}
+.graph-visualizer h3{
+    color: aliceblue;
+}
+
+.graph-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.graph-node {
+    margin: 10px;
+    padding: 10px;
+    background-color: #7986cb;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.graph-node.visited {
+    background-color: #ffb74d;
+}
+
+.graph-edges {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.edge {
+    display: block;
+    color: #c5cae9;
+}

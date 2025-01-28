@@ -1,0 +1,41 @@
+/* LinkedListVisualizer.css */
+.linked-list-visualizer {
+    text-align: center;
+    margin: 20px 0;
+    background-color: black;
+}
+.linked-list-visualizer h3{
+    color: aliceblue;
+}
+
+.linked-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.node {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.node-value {
+    width: 40px;
+    height: 40px;
+    background-color: #ba68c8;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.arrow {
+    font-size: 20px;
+    margin: 0 10px;
+    color: #ba68c8;
+}
